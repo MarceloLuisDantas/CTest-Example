@@ -153,53 +153,77 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-src/module_1/m1.o: src/module_1/m1.c.o
-.PHONY : src/module_1/m1.o
+src/multiplication/multiplication.o: src/multiplication/multiplication.c.o
+.PHONY : src/multiplication/multiplication.o
 
 # target to build an object file
-src/module_1/m1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/module_1/m1.c.o
-.PHONY : src/module_1/m1.c.o
+src/multiplication/multiplication.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/multiplication/multiplication.c.o
+.PHONY : src/multiplication/multiplication.c.o
 
-src/module_1/m1.i: src/module_1/m1.c.i
-.PHONY : src/module_1/m1.i
+src/multiplication/multiplication.i: src/multiplication/multiplication.c.i
+.PHONY : src/multiplication/multiplication.i
 
 # target to preprocess a source file
-src/module_1/m1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/module_1/m1.c.i
-.PHONY : src/module_1/m1.c.i
+src/multiplication/multiplication.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/multiplication/multiplication.c.i
+.PHONY : src/multiplication/multiplication.c.i
 
-src/module_1/m1.s: src/module_1/m1.c.s
-.PHONY : src/module_1/m1.s
+src/multiplication/multiplication.s: src/multiplication/multiplication.c.s
+.PHONY : src/multiplication/multiplication.s
 
 # target to generate assembly for a file
-src/module_1/m1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/module_1/m1.c.s
-.PHONY : src/module_1/m1.c.s
+src/multiplication/multiplication.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/multiplication/multiplication.c.s
+.PHONY : src/multiplication/multiplication.c.s
 
-src/module_2/m2.o: src/module_2/m2.c.o
-.PHONY : src/module_2/m2.o
+src/multiply_and_sum/mulSum.o: src/multiply_and_sum/mulSum.c.o
+.PHONY : src/multiply_and_sum/mulSum.o
 
 # target to build an object file
-src/module_2/m2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/module_2/m2.c.o
-.PHONY : src/module_2/m2.c.o
+src/multiply_and_sum/mulSum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o
+.PHONY : src/multiply_and_sum/mulSum.c.o
 
-src/module_2/m2.i: src/module_2/m2.c.i
-.PHONY : src/module_2/m2.i
+src/multiply_and_sum/mulSum.i: src/multiply_and_sum/mulSum.c.i
+.PHONY : src/multiply_and_sum/mulSum.i
 
 # target to preprocess a source file
-src/module_2/m2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/module_2/m2.c.i
-.PHONY : src/module_2/m2.c.i
+src/multiply_and_sum/mulSum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.i
+.PHONY : src/multiply_and_sum/mulSum.c.i
 
-src/module_2/m2.s: src/module_2/m2.c.s
-.PHONY : src/module_2/m2.s
+src/multiply_and_sum/mulSum.s: src/multiply_and_sum/mulSum.c.s
+.PHONY : src/multiply_and_sum/mulSum.s
 
 # target to generate assembly for a file
-src/module_2/m2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/module_2/m2.c.s
-.PHONY : src/module_2/m2.c.s
+src/multiply_and_sum/mulSum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.s
+.PHONY : src/multiply_and_sum/mulSum.c.s
+
+src/sum/sum.o: src/sum/sum.c.o
+.PHONY : src/sum/sum.o
+
+# target to build an object file
+src/sum/sum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sum/sum.c.o
+.PHONY : src/sum/sum.c.o
+
+src/sum/sum.i: src/sum/sum.c.i
+.PHONY : src/sum/sum.i
+
+# target to preprocess a source file
+src/sum/sum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sum/sum.c.i
+.PHONY : src/sum/sum.c.i
+
+src/sum/sum.s: src/sum/sum.c.s
+.PHONY : src/sum/sum.s
+
+# target to generate assembly for a file
+src/sum/sum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/sum/sum.c.s
+.PHONY : src/sum/sum.c.s
 
 # Help Target
 help:
@@ -213,12 +237,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/module_1/m1.o"
-	@echo "... src/module_1/m1.i"
-	@echo "... src/module_1/m1.s"
-	@echo "... src/module_2/m2.o"
-	@echo "... src/module_2/m2.i"
-	@echo "... src/module_2/m2.s"
+	@echo "... src/multiplication/multiplication.o"
+	@echo "... src/multiplication/multiplication.i"
+	@echo "... src/multiplication/multiplication.s"
+	@echo "... src/multiply_and_sum/mulSum.o"
+	@echo "... src/multiply_and_sum/mulSum.i"
+	@echo "... src/multiply_and_sum/mulSum.s"
+	@echo "... src/sum/sum.o"
+	@echo "... src/sum/sum.i"
+	@echo "... src/sum/sum.s"
 .PHONY : help
 
 

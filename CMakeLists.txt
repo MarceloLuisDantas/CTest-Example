@@ -6,7 +6,8 @@ add_compile_options(-Wall -Werror)
 add_executable(
     main
     src/main.c
-    src/module\ 1/m1.c
-    src/module\ 2/m2.c
+    src/multiplication/multiplication.c
+    src/sum/sum.c
+    src/multiply\ and\ sum/mulSum.c
 )
 

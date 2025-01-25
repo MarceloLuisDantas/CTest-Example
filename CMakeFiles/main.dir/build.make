@@ -83,49 +83,65 @@ CMakeFiles/main.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/CTest-Example/src/main.c -o CMakeFiles/main.dir/src/main.c.s
 
-CMakeFiles/main.dir/src/module_1/m1.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/module_1/m1.c.o: src/module\ 1/m1.c
-CMakeFiles/main.dir/src/module_1/m1.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/module_1/m1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/module_1/m1.c.o -MF CMakeFiles/main.dir/src/module_1/m1.c.o.d -o CMakeFiles/main.dir/src/module_1/m1.c.o -c "/home/marcelo/Documentos/CTest-Example/src/module 1/m1.c"
+CMakeFiles/main.dir/src/multiplication/multiplication.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/multiplication/multiplication.c.o: src/multiplication/multiplication.c
+CMakeFiles/main.dir/src/multiplication/multiplication.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/src/multiplication/multiplication.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/multiplication/multiplication.c.o -MF CMakeFiles/main.dir/src/multiplication/multiplication.c.o.d -o CMakeFiles/main.dir/src/multiplication/multiplication.c.o -c /home/marcelo/Documentos/CTest-Example/src/multiplication/multiplication.c
 
-CMakeFiles/main.dir/src/module_1/m1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/module_1/m1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/marcelo/Documentos/CTest-Example/src/module 1/m1.c" > CMakeFiles/main.dir/src/module_1/m1.c.i
+CMakeFiles/main.dir/src/multiplication/multiplication.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/multiplication/multiplication.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/CTest-Example/src/multiplication/multiplication.c > CMakeFiles/main.dir/src/multiplication/multiplication.c.i
 
-CMakeFiles/main.dir/src/module_1/m1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/module_1/m1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/marcelo/Documentos/CTest-Example/src/module 1/m1.c" -o CMakeFiles/main.dir/src/module_1/m1.c.s
+CMakeFiles/main.dir/src/multiplication/multiplication.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/multiplication/multiplication.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/CTest-Example/src/multiplication/multiplication.c -o CMakeFiles/main.dir/src/multiplication/multiplication.c.s
 
-CMakeFiles/main.dir/src/module_2/m2.c.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/module_2/m2.c.o: src/module\ 2/m2.c
-CMakeFiles/main.dir/src/module_2/m2.c.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/module_2/m2.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/module_2/m2.c.o -MF CMakeFiles/main.dir/src/module_2/m2.c.o.d -o CMakeFiles/main.dir/src/module_2/m2.c.o -c "/home/marcelo/Documentos/CTest-Example/src/module 2/m2.c"
+CMakeFiles/main.dir/src/sum/sum.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/sum/sum.c.o: src/sum/sum.c
+CMakeFiles/main.dir/src/sum/sum.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/src/sum/sum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/sum/sum.c.o -MF CMakeFiles/main.dir/src/sum/sum.c.o.d -o CMakeFiles/main.dir/src/sum/sum.c.o -c /home/marcelo/Documentos/CTest-Example/src/sum/sum.c
 
-CMakeFiles/main.dir/src/module_2/m2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/module_2/m2.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/marcelo/Documentos/CTest-Example/src/module 2/m2.c" > CMakeFiles/main.dir/src/module_2/m2.c.i
+CMakeFiles/main.dir/src/sum/sum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/sum/sum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/marcelo/Documentos/CTest-Example/src/sum/sum.c > CMakeFiles/main.dir/src/sum/sum.c.i
 
-CMakeFiles/main.dir/src/module_2/m2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/module_2/m2.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/marcelo/Documentos/CTest-Example/src/module 2/m2.c" -o CMakeFiles/main.dir/src/module_2/m2.c.s
+CMakeFiles/main.dir/src/sum/sum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/sum/sum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/marcelo/Documentos/CTest-Example/src/sum/sum.c -o CMakeFiles/main.dir/src/sum/sum.c.s
+
+CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o: src/multiply\ and\ sum/mulSum.c
+CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o -MF CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o.d -o CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o -c "/home/marcelo/Documentos/CTest-Example/src/multiply and sum/mulSum.c"
+
+CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/marcelo/Documentos/CTest-Example/src/multiply and sum/mulSum.c" > CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.i
+
+CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/marcelo/Documentos/CTest-Example/src/multiply and sum/mulSum.c" -o CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.c.o" \
-"CMakeFiles/main.dir/src/module_1/m1.c.o" \
-"CMakeFiles/main.dir/src/module_2/m2.c.o"
+"CMakeFiles/main.dir/src/multiplication/multiplication.c.o" \
+"CMakeFiles/main.dir/src/sum/sum.c.o" \
+"CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.c.o
-main: CMakeFiles/main.dir/src/module_1/m1.c.o
-main: CMakeFiles/main.dir/src/module_2/m2.c.o
+main: CMakeFiles/main.dir/src/multiplication/multiplication.c.o
+main: CMakeFiles/main.dir/src/sum/sum.c.o
+main: CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcelo/Documentos/CTest-Example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/main.c.o"
   "CMakeFiles/main.dir/src/main.c.o.d"
-  "CMakeFiles/main.dir/src/module_1/m1.c.o"
-  "CMakeFiles/main.dir/src/module_1/m1.c.o.d"
-  "CMakeFiles/main.dir/src/module_2/m2.c.o"
-  "CMakeFiles/main.dir/src/module_2/m2.c.o.d"
+  "CMakeFiles/main.dir/src/multiplication/multiplication.c.o"
+  "CMakeFiles/main.dir/src/multiplication/multiplication.c.o.d"
+  "CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o"
+  "CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o.d"
+  "CMakeFiles/main.dir/src/sum/sum.c.o"
+  "CMakeFiles/main.dir/src/sum/sum.c.o.d"
   "main"
   "main.pdb"
 )

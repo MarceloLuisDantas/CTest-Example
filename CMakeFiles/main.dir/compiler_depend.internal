@@ -56,14 +56,21 @@ CMakeFiles/main.dir/src/main.c.o
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h
  /usr/include/alloca.h
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h
- /home/marcelo/Documentos/CTest-Example/src/module 1/m1.h
- /home/marcelo/Documentos/CTest-Example/src/module 2/m2.h
+ /home/marcelo/Documentos/CTest-Example/src/multiplication/multiplication.h
+ /home/marcelo/Documentos/CTest-Example/src/sum/sum.h
+ /home/marcelo/Documentos/CTest-Example/src/multiply and sum/mulSum.h
 
-CMakeFiles/main.dir/src/module_1/m1.c.o
- /home/marcelo/Documentos/CTest-Example/src/module 1/m1.c
+CMakeFiles/main.dir/src/multiplication/multiplication.c.o
+ /home/marcelo/Documentos/CTest-Example/src/multiplication/multiplication.c
  /usr/include/stdc-predef.h
 
-CMakeFiles/main.dir/src/module_2/m2.c.o
- /home/marcelo/Documentos/CTest-Example/src/module 2/m2.c
+CMakeFiles/main.dir/src/multiply_and_sum/mulSum.c.o
+ /home/marcelo/Documentos/CTest-Example/src/multiply and sum/mulSum.c
+ /usr/include/stdc-predef.h
+ /home/marcelo/Documentos/CTest-Example/src/multiplication/multiplication.h
+ /home/marcelo/Documentos/CTest-Example/src/sum/sum.h
+
+CMakeFiles/main.dir/src/sum/sum.c.o
+ /home/marcelo/Documentos/CTest-Example/src/sum/sum.c
  /usr/include/stdc-predef.h
 

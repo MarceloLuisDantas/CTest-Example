@@ -48,5 +48,6 @@ CMakeFiles/main.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /home/marcelo/Documentos/CTest-Example/src/./module\ 1/m1.h \
- /home/marcelo/Documentos/CTest-Example/src/./module\ 2/m2.h
+ /home/marcelo/Documentos/CTest-Example/src/./multiplication/multiplication.h \
+ /home/marcelo/Documentos/CTest-Example/src/./sum/sum.h \
+ /home/marcelo/Documentos/CTest-Example/src/./multiply\ and\ sum/mulSum.h

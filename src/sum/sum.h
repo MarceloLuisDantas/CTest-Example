@@ -1,5 +1,5 @@
-#ifndef M2_H
-#define M2_H
+#ifndef SUM_H
+#define SUM_H
 
 int sum(int a, int b);
 
