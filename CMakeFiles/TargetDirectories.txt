@@ -1,0 +1,3 @@
+/home/marcelo/Documentos/CTest-Example/CMakeFiles/main.dir
+/home/marcelo/Documentos/CTest-Example/CMakeFiles/edit_cache.dir
+/home/marcelo/Documentos/CTest-Example/CMakeFiles/rebuild_cache.dir
